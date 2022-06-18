@@ -1,0 +1,28 @@
+#navbar{
+
+    background-color: #1671a9;
+
+}
+
+#card{
+
+padding-top:5em; 
+
+}
+
+#credito{
+border: none;
+width: 100%;
+background-color: white;
+border-radius: 2em;
+filter: drop-shadow( 0px 0px 4px #000000);
+}
+
+#cuotas{
+color: white;
+border: none;
+width: 100%;
+background-color: #1671a9;
+border-radius: 2em;
+filter: drop-shadow( 0px 0px 4px #000000);
+}
