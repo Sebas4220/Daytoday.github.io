@@ -14,7 +14,7 @@
 
       <div class="container-fluid" >
         <div class="row">
-          <div class="card" style="background-color: #0079ff; border-radius:0px;">
+          <div class="card" id="card1">
             <div class="card-body pt-0 pb-0 ">
               <div class="container ">
                 <div class="row">
@@ -81,7 +81,7 @@
 <section>
   <div class="container-fluid">
     <div class="row">
-      <div class="card" style="background-color: #0079ff; border-radius:0px; color: white;">
+      <div class="card" id="card2">
         <div class="card-body">
           <div class="container">
             <div class="row">
@@ -128,28 +128,28 @@
 
 
 
-<section class="mt-5 mb-5 text-center">
+<section class="mt-2 mb-2">
 
-  <div class="container">
+  <div class="container  text-center" id="img2">
     <div class="row">
-      <div class="col  pt-3 pb-3">
+      <div class="col-4 col-lg pt-3 pb-3">
         <div class="card">
           <div class="card-body">
-            <a href="index.html"><img src="./Logo de Dashboard2.png" alt="" width="160px"></a>
+            <a href="index.html"><img src="./Logo de Dashboard2.png" alt="" width="70px"></a>
           </div>
         </div>
       </div>
-      <div class="col pt-3 pb-3">
+      <div class="col-4 col-lg pt-3 pb-3">
         <div class="card">
           <div class="card-body">
-            <a href="Historial.html"><img src="./Logo de Historial2.png" alt="" width="160px"></a>
+            <a href="Historial.html"><img src="./Logo de Historial2.png" alt="" width="70px"></a>
           </div>
         </div>
       </div>
-      <div class="col  pt-3 ">
+      <div class="col-4 col-lg pt-3 ">
         <div class="card">
           <div class="card-body">
-            <a href=""><img src="./Logo de reputacion2.png" alt="" width="160px"></a>
+            <a href=""><img src="./Logo de reputacion2.png" alt="" width="61px"></a>
           </div>
         </div>
       </div>
@@ -172,23 +172,46 @@
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-12 pt-2 pb-2 col-lg text-end">
+
+      
+
+      <div class="col-12 pt-2 pb-2 col-lg text-center">
         
         <!-- Button trigger modal -->
         
-        <button id="credito" data-bs-toggle="modal" data-bs-target="#staticBackdrop" ><p>Hasta 1000$</p><h3>Quiero un crédito</h3><p>Hasta 30 cuotas diarias</p></button>
+        <div class="card" id="credito" >
+          <div class="card-body">
+            <div data-bs-toggle="modal" data-bs-target="#staticBackdrop" ><p class="mt-3">Hasta 1000$</p><h3> <svg xmlns="http://www.w3.org/2000/svg" width="15%"  fill="currentColor" class="bi bi-cash-coin me-4" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+              <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+              <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+              <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+            </svg>Quiero un crédito</h3><p>Hasta 30 cuotas diarias</p>
+
+            </div>
+          </div>
+        </div>
 
 
       </div>
+      <div class="col-12 pt-2 pb-2 col-lg text-center"> 
 
+          <div class="card" id="cuotas" >
+            <div class="card-body">
 
-      <div class="col-12 pt-2 pb-2 col-lg text-stard">
-
-        <!-- Button trigger modal -->
-        <button id="cuotas"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" ><p>Hasta 10000$</p><h3>Quiero un mejor crédito</h3><p>Hasta 24 cuotas mensuales fijas</p></button>
-      
-
-      
+    
+            <!-- Button trigger modal -->
+            <div   data-bs-toggle="modal" data-bs-target="#staticBackdrop" ><p class="mt-3">Hasta 10000$</p><h3><svg xmlns="http://www.w3.org/2000/svg" width="15%"  fill="currentColor" class="bi bi-cash-coin me-4" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+              <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+              <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+              <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+            </svg>Quiero un mejor crédito</h3><p>Hasta 24 cuotas mensuales fijas</p></div>
+          
+    
+          
+          </div>
+        </div>
       </div>
     </div>
 
@@ -250,88 +273,111 @@
 <!--Section mi credito -->
 
 <section class="mt-0 mb-5 pt-5 pb-1">
-  <div class="container "> 
-    <div class="card">
+  <div class="container text-center"> 
+    <div class="card ">
       <div class="card-body">
-        <div class="row">
-          <div class="col">
-            <h2 class="card-title text-center mt-1 mb-4">Mi crédito</h2>
+    <div class="row">
+      <div class="col">
+    
+            <h1 class="card-title text-center mt-1 mb-4">Mi crédito</h1>
           </div>
         </div>
         
 
-              <div class="container-fluid mt-4 mb-4  text-center " >
 
-                <div class="row " style="background-color: rgb(233, 233, 233);">
-                        <div class="col-2 mt-2 ">
-                            <h1 style="font-size: 9px;">fecha</h1>
-                        </div>
-                        <div class="col-2 mt-2">
-                            <h1 style="font-size: 9px;">Crédito actual</h1>
-                        </div>
-                        <div class="col-2 mt-2">
-                            <h1 style="font-size: 9px;">Extra crédito</h1>
-                        </div>
-                        <div class="col-2 mt-2">
-                            <h1 style="font-size: 9px;">Tasa del dia</h1>
-                        </div>
-                        <div class="col-2 mt-2">
-                            <h1 style="font-size: 9px;">Pago del dia</h1>
-                        </div>
-                        <div class="col-2 mt-2">
-                            <h1 style="font-size: 9px;">Estado</h1>
-                        </div>
+              <div class="container">
+
+                <div class="row " id="barraH">
+
+                  <div class="col mt-2 ">
+                      <h1 style="font-size: 12px;">fecha</h1>
+                  </div>
+                  <div class="col mt-2">
+                      <h1 style="font-size: 12px;">Crédito actual</h1>
+                  </div>
+                  <div class="col mt-2">
+                      <h1 style="font-size: 12px;">Extra crédito</h1>
+                  </div>
                 </div>
-
-                <div class="row text-center mt-3">
-                    <div class="col-2">
+          
+                  <div class="container pt-2">
+                    <div class="row">
+                      <div class="col">
                         <p style="font-size: 9px;">02/07/2022</p>
                     </div>
-                    <div class="col-2">
+                    <div class="col">
                         <p style="font-size: 9px;">1000$</p>
                     </div>
-                    <div class="col-2">
+                    <div class="col">
                         <p style="font-size: 9px;">-</p>
                     </div>
-                    <div class="col-2">
-                        <p style="font-size: 9px;">0,006</p>
                     </div>
-                    <div class="col-2">
-                        <p style="font-size: 9px;">39$</p>
-                    </div>
-                    <div class="col-2">
-                        <p style="font-size: 8px;">Pagado</p>
-                    </div>
-                </div>
+                  </div>
 
-                <div class="row text-center">
-                    <div class="col-2">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
                         <p style="font-size: 9px;">02/07/2022</p>
                     </div>
-                    <div class="col-2">
+                    <div class="col">
                         <p style="font-size: 9px;">1000$</p>
                     </div>
-                    <div class="col-2">
+                    <div class="col">
                         <p style="font-size: 9px;">-</p>
                     </div>
-                    <div class="col-2">
-                        <p style="font-size: 9px;">0,006</p>
                     </div>
-                    <div class="col-2">
-                        <p style="font-size: 9px;">39$</p>
-                    </div>
-                    <div class="col-2">
-                        <p style="font-size: 8px;">Pagado</p>
-                    </div>
-                </div>
+                  </div>
+
+
               </div>
 
+                        <div class="container">
+                          <div class="row " id="barraH">
+                
+                            <div class="col mt-2">
+                                <h1 style="font-size: 12px;">Tasa del dia</h1>
+                            </div>
+                            <div class="col mt-2">
+                                <h1 style="font-size: 12px;">Pago del dia</h1>
+                            </div>
+                            <div class="col mt-2">
+                                <h1 style="font-size: 12px;">Estado</h1>
+                            </div>
+                        </div>
 
 
+                          <div class="container pt-2">
+                            <div class="row">
+                              <div class="col">
+                                <p style="font-size: 9px;">0,006</p>
+                            </div>
+                            <div class="col">
+                                <p style="font-size: 9px;">39$</p>
+                            </div>
+                            <div class="col">
+                                <p style="font-size: 9px;">Pagado</p>
+                            </div>
+                            </div>
+                          </div>
 
+                          <div class="container">
+                            <div class="row">
+                              <div class="col">
+                                <p style="font-size: 9px;">0,006</p>
+                            </div>
+                            <div class="col">
+                                <p style="font-size: 9px;">39$</p>
+                            </div>
+                            <div class="col">
+                                <p style="font-size: 9px;">Pagado</p>
+                            </div>
+                            </div>
+                          </div>
+
+                </div>
       </div>
-    </div>
   </div>
+</div>  
 </section>
 
 <!--/Section mi credito -->
@@ -351,32 +397,32 @@
           <div class="col-12 mt-2 mb-4 text-center" >
             <h2>Datos para realizar pagos</h2>
             </div>
-            <div class="col col-lg  mb-2">
-            <a href="Banesco.html"><button style="width: 100%;">Banesco</button></a>
+            <div class="col col-lg  mb-2 ">
+            <a href="Banesco.html"><button style="width: 100%;" class="pt-2 pb-2">Banesco</button></a>
             </div>
             <div class="col mb-3 col-lg">
-              <a href="Provincial.html"><button style="width: 100%;">Provincial</button></a>
+              <a href="Provincial.html"><button style="width: 100%;" class="pt-2 pb-2">Provincial</button></a>
             </div> 
             <div class="col-12 mb-3 col-lg">
-            <a href="Pago Movil.html"><button style="width: 100%;">Pago Móvil</button></a>
+            <a href="Pago Movil.html"><button style="width: 100%;" class="pt-2 pb-2">Pago Móvil</button></a>
             </div>
         </div>
 
         <div class="row text-center"  id="datos">
-          <div class="col mt-1 col-lg" style="border: solid rgb(197, 197, 197) 0.5px ; border-radius: 1em;">
-            <h6>Titular</h6>
+          <div class="col mt-1 col-lg" >
+            <h6 class="mt-3">Titular</h6>
             <p>cobrodiario C.A</p>
 
           </div>
-          <div class="col mt-1 col-lg" style="border: solid rgb(197, 197, 197) 0.5px ; border-radius: 1em;">
+          <div class="col mt-1 col-lg" >
             
-            <h6>Cuenta</h6>
+            <h6 class="mt-3">Cuenta</h6>
             <p>0134647463538235423874</p>
             
 
           </div>
-          <div class="col-12 mt-1 col-lg" style="border: solid rgb(197, 197, 197) 0.5px ; border-radius: 1em;">
-            <h6>Rif</h6>
+          <div class="col col-12 mt-1 col-lg" >
+            <h6 class="mt-3">Rif</h6>
             <p>J-31233142142</p>
           </div>
         </div>
