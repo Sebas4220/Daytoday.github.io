@@ -100,12 +100,15 @@ border-radius: 0.5em;
 .btn{
 
 background-color:#0079ff;
-width: 32%;
+width: 50%;
 border: none;
-height: 50px;
+height: 55px;
 border-radius: 2em;
 color: white;
+position: relative;
+top: 1em;
 }
+
 
 .btn:focus{
 
